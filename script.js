@@ -97,7 +97,7 @@ myLibrary.push(lotr);
 const endersGame = new Book("Ender's Game", "Orson Scott Card", 1234, "Read")
 myLibrary.push(endersGame);
 
-const magicTree = new Book("The Magic Tree House", "Mary SHelley", 123, "Read")
+const magicTree = new Book("The Magic Tree House", "Mary Shelley", 123, "Read")
 myLibrary.push(magicTree);
 
 
