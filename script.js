@@ -81,6 +81,15 @@ function updateDisplay() {
   }
 }
 
+document.getElementById('pages').addEventListener('keyup', (e) => {
+  console.log(e.target.value)
+  if (/[0-9]+/.test(e.target.value)) {
+    e.target.className = 'valid'
+  } else {
+    e.target.className = 'invalid'
+  }
+});
+
 // Some example books, before manual addition
 const lotr = new Book("The Hobbit", "J.R.R. Tolkien", 295, "Not read");
 myLibrary.push(lotr);

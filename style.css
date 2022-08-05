@@ -44,6 +44,12 @@ body {
   display: block;
   margin: 0.3rem;
 }
+.newBook form .valid {
+  border: 0.2rem solid green;
+}
+.newBook form .invalid {
+  border: 0.2rem solid red;
+}
 
 .footer {
   background-color: rgba(252, 202, 210, 0.646);

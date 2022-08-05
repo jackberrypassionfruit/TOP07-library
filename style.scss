@@ -49,6 +49,14 @@ body {
       display: block;
       margin: .3rem;
     }
+
+    .valid {
+      border: .2rem solid green;
+    }
+
+    .invalid {
+      border: .2rem solid red;
+    }
   }
   
 }
